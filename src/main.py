@@ -1,4 +1,3 @@
-from load_data import load_data
 from preprocess import preprocess_data
 from train_model import train_logreg, train_mlp
 from sklearn.model_selection import train_test_split

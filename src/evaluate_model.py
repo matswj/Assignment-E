@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from train_model import train_logreg, train_mlp  # Importing the functions
 
 # Load data
-data = pd.read_csv('data/crop_recommendation.csv')
+data = pd.read_csv('C:/Users/matsw/OneDrive/Skrivebord/Intelligente Systemer/Assignment-E/Assignment-E/data/crop_recommendation.csv')
 X = data.drop('label', axis=1)  # Features
 y = data['label']  # Target
 
