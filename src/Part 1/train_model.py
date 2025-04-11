@@ -43,4 +43,3 @@ def train_mlp(X_train, y_train, X_test, y_test):
     y_pred_mlp = mlp.predict(X_test)
     
     return classification_report(y_test, y_pred_mlp)
-
